@@ -2,7 +2,7 @@ CREATE
 	OR
 ALTER PROCEDURE [usr].[AddingUser] (
 	@Username NVARCHAR(128)
-	,@PasswordUnHashed NVARCHAR(MAX)
+	,@HashedPassword NVARCHAR(MAX)
 	,@MobileNumber VARCHAR(32)
 	,@Email VARCHAR(128)
 	)
@@ -35,10 +35,6 @@ BEGIN
 						);
 			END
 		END
-
-		DECLARE @HashedPassword NVARCHAR(MAX) = (
-				SELECT HASHBYTES('SHA2_256', @PasswordUnHashed)
-				);
 
 		INSERT INTO [usr].[USER] (
 			[Username]
