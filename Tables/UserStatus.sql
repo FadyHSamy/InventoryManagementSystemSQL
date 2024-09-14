@@ -1,5 +1,6 @@
 CREATE TABLE [usr].[UserStatus]
 (
-  [StatusId] INT NOT NULL PRIMARY KEY,
-  [StatusDescripton] VARCHAR(128)
+  [StatusId] INT,
+  [StatusDescripton] VARCHAR(128),
+  CONSTRAINT PK_UserStatus PRIMARY KEY (StatusId)
 )

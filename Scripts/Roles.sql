@@ -1,20 +1,9 @@
-INSERT INTO [usr].[Roles]
-    ([RoleId] ,
-    [RoleName] ,
-    [status] )
+DELETE FROM [usr].[Roles];
+GO;
+INSERT INTO [usr].[Roles] 
+    ([RoleId] ,[RoleName] )
 VALUES
-    (1, 'User', 1)
-
-INSERT INTO [usr].[Roles]
-    ([RoleId] ,
-    [RoleName] ,
-    [status] )
-VALUES
-    (2, 'Manager', 1)
-
-INSERT INTO [usr].[Roles]
-    ([RoleId] ,
-    [RoleName] ,
-    [status] )
-VALUES
-    (3, 'Admin', 1)
+    (1, 'User'),
+    (2, 'Manager'),
+    (3, 'Admin')
+GO;

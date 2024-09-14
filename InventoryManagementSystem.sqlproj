@@ -10,8 +10,10 @@
   <ItemGroup>
     <Folder Include="Procedures" />
     <Folder Include="Schema" />
-    <Folder Include="Scripts" />
     <Folder Include="Tables" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Remove="Scripts\**" />
   </ItemGroup>
   <Target Name="BeforeBuild">
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />

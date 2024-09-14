@@ -1,6 +1,4 @@
-CREATE
-	OR
-ALTER PROCEDURE [usr].[AddingUser] (
+CREATE PROCEDURE [usr].[AddingUser] (
 	@Username NVARCHAR(128)
 	,@HashedPassword NVARCHAR(MAX)
 	,@MobileNumber VARCHAR(32)

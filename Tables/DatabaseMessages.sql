@@ -1,5 +1,6 @@
 CREATE TABLE [ims].[DatabaseMessages]
 (
-  [MessageId] INT NOT NULL PRIMARY KEY,
-  [MessageName] NVARCHAR(MAX)
+  [MessageId] INT,
+  [MessageName] NVARCHAR(MAX),
+  CONSTRAINT PK_DatabaseMessages PRIMARY KEY (MessageId)
 )

@@ -1,4 +1,4 @@
-CREATE OR ALTER PROCEDURE [ims].[InsertLoggingError] (
+CREATE PROCEDURE [ims].[InsertLoggingError] (
 	@LogLevel VARCHAR(20)
 	,@Message NVARCHAR(MAX)
 	,@Exception NVARCHAR(MAX)

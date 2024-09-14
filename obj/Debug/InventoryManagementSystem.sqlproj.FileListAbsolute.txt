@@ -1,0 +1,10 @@
+d:\My Own Applications\InventoryManagementSystem\InventoryManagementSystemSQL\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.dacpac
+d:\My Own Applications\InventoryManagementSystem\InventoryManagementSystemSQL\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.sqlproj.AssemblyReference.cache
+d:\My Own Applications\InventoryManagementSystem\InventoryManagementSystemSQL\InventoryManagementSystem\obj\Debug\Model.xml
+d:\My Own Applications\InventoryManagementSystem\InventoryManagementSystemSQL\InventoryManagementSystem\obj\Debug\refactor.xml
+d:\My Own Applications\InventoryManagementSystem\InventoryManagementSystemSQL\InventoryManagementSystem\obj\Debug\postdeploy.sql
+d:\My Own Applications\InventoryManagementSystem\InventoryManagementSystemSQL\InventoryManagementSystem\obj\Debug\predeploy.sql
+d:\My Own Applications\InventoryManagementSystem\InventoryManagementSystemSQL\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.dll
+d:\My Own Applications\InventoryManagementSystem\InventoryManagementSystemSQL\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
+d:\My Own Applications\InventoryManagementSystem\InventoryManagementSystemSQL\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.dll
+d:\My Own Applications\InventoryManagementSystem\InventoryManagementSystemSQL\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.pdb

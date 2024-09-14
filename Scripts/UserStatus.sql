@@ -1,24 +1,10 @@
--- Write your own SQL object definition here, and it'll be included in your package.
+DELETE FROM [usr].[UserStatus];
+GO;
 INSERT INTO [usr].[UserStatus]
-    ([StatusId]
-    ,[StatusDescripton])
+    ([StatusId],[StatusDescripton])
 VALUES
-    ( 1 , 'Active')
-
-INSERT INTO [usr].[UserStatus]
-    ([StatusId]
-    ,[StatusDescripton])
-VALUES
-    ( 2 , 'Inactive')
-
-INSERT INTO [usr].[UserStatus]
-    ([StatusId]
-    ,[StatusDescripton])
-VALUES
-    ( 3 , 'Suspended')
-
-INSERT INTO [usr].[UserStatus]
-    ([StatusId]
-    ,[StatusDescripton])
-VALUES
+    ( 1 , 'Active'),
+    ( 2 , 'Inactive'),
+    ( 3 , 'Suspended'),
     ( 4 , 'Deleted')
+GO;
