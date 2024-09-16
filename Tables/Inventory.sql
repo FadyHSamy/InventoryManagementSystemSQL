@@ -5,5 +5,5 @@ CREATE TABLE [ims].[Inventory]
   [ProductId] INT,
   [LastUpdated] DATETIME2 NOT NULL DEFAULT GETDATE(),
   CONSTRAINT PK_Inventory PRIMARY KEY (ProductId),
-  FOREIGN KEY (ProductId) REFERENCES [ims].[Products](ProductId)
+  CONSTRAINT FK_Inventory_Product FOREIGN KEY (ProductId) REFERENCES [ims].[Products](ProductId)
 )

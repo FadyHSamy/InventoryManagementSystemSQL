@@ -3,6 +3,7 @@ CREATE PROCEDURE [ims].[AddingProduct] (
 	,@ProductDescription NVARCHAR(MAX)
 	,@ProductPrice MONEY
 	,@CategoryId INT
+	,@ProductId INT OUTPUT
 	)
 AS
 BEGIN
@@ -18,4 +19,6 @@ BEGIN
 		,@ProductPrice
 		,@CategoryId
 		)
+
+	SET @ProductId = SCOPE_IDENTITY();
 END

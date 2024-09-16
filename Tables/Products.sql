@@ -6,6 +6,6 @@ CREATE TABLE [ims].[Products]
   [ProductPrice] MONEY,
   [CategoryId] INT,
   CONSTRAINT PK_Products PRIMARY KEY (ProductId),
-  FOREIGN KEY (CategoryId) REFERENCES [ims].[Category](CategoryId)
+  CONSTRAINT FK_Products_Category FOREIGN KEY (CategoryId) REFERENCES [ims].[Category](CategoryId)
 )
 
