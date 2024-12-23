@@ -5,6 +5,7 @@ BEGIN
 		,[ProductDescription]
 		,[ProductPrice]
 		,[CategoryId]
+		,[ProductId]
 	FROM [ims].[Products]
 	WHERE [ProductId] = @ProductId
 END

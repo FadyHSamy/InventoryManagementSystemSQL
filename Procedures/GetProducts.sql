@@ -5,6 +5,8 @@ BEGIN
 		,[ProductName]
 		,[ProductDescription]
 		,[ProductPrice]
-		,[CategoryId]
-	FROM [ims].[Products]
+		,[category].[CategoryId]
+		,[category].[CategoryName]
+	FROM [ims].[Products] AS products
+	INNER JOIN [ims].[Category] AS category ON products.CategoryId = category.CategoryId
 END
